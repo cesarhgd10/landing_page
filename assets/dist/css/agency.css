@@ -1,0 +1,39 @@
+/** Components **/
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold; }
+
+/** Overrinding Bootstraps classes **/
+button.btn:focus {
+  outline: none !important; }
+
+h1, h2 {
+  margin: 0 20px; }
+
+body {
+  background: url("../img/tile.png") repeat; }
+
+nav.navbar {
+  margin-bottom: 0; }
+
+/** #hero-image section**/
+#hero-image {
+  background: url("../img/hero-img.jpeg");
+  background-size: cover;
+  height: 500px;
+  display: table;
+  width: 100%; }
+  #hero-image .call-to-action {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+  #hero-image h2 {
+    margin: 0 0 20px; }
+
+#boost-income {
+  padding: 80px 0; }
+  #boost-income .section-header {
+    text-align: center; }
+  #boost-income h2 {
+    margin: 20px 0 40px; }

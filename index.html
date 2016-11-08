@@ -6,8 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Bootstrap</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Main theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/dist/css/agency.css">
+	<!-- Font Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -34,11 +39,38 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<section id="hero-image">
-		<img src="assets/img/hero-img.jpeg" alt="Hero Image" class="img-responsive">
+	<section id="hero-image" class="parallax" data-type="background" data-speed="2">
+		<div class="call-to-action">
+			<h2>Here we make nice products</h2>
+			<button class="btn btn-success btn-lg">Discover more</button>
+		</div><!-- /.call-to-action -->
 	</section><!-- /#hero-image -->
+
+
+	<section id="boost-income">
+		<div class="container">
+			<div class="section-header">
+				<img src="assets/dist/img/icon-boost.png" alt="Chart">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Lorem ispsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nemo sint eveniet architecto velit explicabo eos illum optio temporibus recusandae laborum veritatis, vero, molestias at. Officia, doloremque, aliquid? Commodi, dicta!</p>
+				</div>
+				<div class="col-sm-6">
+					<h3>Lorem ispsum dolor sit amet</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nemo sint eveniet architecto velit explicabo eos illum optio temporibus recusandae laborum veritatis, vero, molestias at. Officia, doloremque, aliquid? Commodi, dicta!</p>
+				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- #boost-income -->
 	
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- JQuery -->
+	<script src="assets/plugins/jquery/jquery.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="assets/dist.agency.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+
+
+
+/** Overrinding Bootstraps classes **/
+button.btn:focus {
+	outline: none !important;
+}
+
+h1, h2 {
+	margin: 0 20px;
+}

@@ -1,0 +1,18 @@
+/** #hero-image section**/
+#hero-image {
+	background:  url("../img/hero-img.jpeg");
+	background-size: cover;
+	height: 500px;
+	display: table;
+    width: 100%;
+
+    .call-to-action {
+    	display: table-cell;
+    	vertical-align: middle;
+    	text-align: center;
+    }
+
+    h2 {
+    	margin: 0 0 20px;
+    }
+}

@@ -11,11 +11,35 @@ button.btn:focus {
 h1, h2 {
   margin: 0 20px; }
 
+.section-header {
+  margin-bottom: 60px; }
+  .section-header h1 {
+    margin-bottom: 20px; }
+
 body {
   background: url("../img/tile.png") repeat; }
 
 nav.navbar {
   margin-bottom: 0; }
+
+.footer {
+  background-color: #218380;
+  color: #ededed;
+  padding-top: 7px; }
+  .footer .social-media {
+    text-align: center;
+    padding-top: 10px; }
+    .footer .social-media a {
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      margin: 0 10px; }
+      .footer .social-media a i {
+        font-size: 20px;
+        padding-top: 10px; }
+  .footer p {
+    font-size: 12px; }
 
 /** #hero-image section**/
 #hero-image {
@@ -37,3 +61,35 @@ nav.navbar {
     text-align: center; }
   #boost-income h2 {
     margin: 20px 0 40px; }
+
+#skills {
+  background: white;
+  padding: 80px 0;
+  text-align: center; }
+
+#cases {
+  padding: 80px 0; }
+  #cases .row {
+    margin-bottom: 35px; }
+  #cases .section-header {
+    text-align: center; }
+  #cases .img {
+    text-align: right;
+    padding: 0 60px; }
+  #cases blockquote {
+    padding: 20px; }
+
+@media screen and (max-width: 768px) {
+  #cases {
+    text-align: center; }
+    #cases .img {
+      text-align: center; } }
+
+#contact {
+  padding: 80px 0;
+  background-color: #3e4249;
+  color: white; }
+  #contact h1 {
+    text-align: center; }
+  #contact textarea {
+    resize: none; }
